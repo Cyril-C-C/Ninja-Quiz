@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Ninja Quiz</title>
+  </head>
+  <body>
+    <!-- Top Section -->
+
+    <section class="intro py-3 bg-white text-center">
+      <section class="container">
+        <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+      </section>
+    </section>
+
+    <!-- Quiz Section -->
+
+    <section class="quiz py-4 bg-primary">
+      <section class="container">
+        <h2 class="my-5 text-white">On with the questions...</h2>
+
+        <form class="quiz-form text-light">
+          <section class="my-5">
+            <p class="lead font-weight-normal">
+              1. How do you give a ninja directions?
+            </p>
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-check-label">Show them a map</label>
+            </section>
+
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-check-label"
+                >Don't worry, a ninja will find you</label
+              >
+            </section>
+          </section>
+
+          <section class="my-5">
+            <p class="lead font-weight-normal">
+              2. If a ninja has 3 apples, then gives one to Mario & one to
+              Yoshi, how many apples does the nanji have left?
+            </p>
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A" checked />
+              <label class="form-check-label">1 apple</label>
+            </section>
+
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B" />
+              <label class="form-check-label">3 apples and two corpses</label>
+            </section>
+          </section>
+
+          <section class="my-5">
+            <p class="lead font-weight-normal">
+              3. How do you know when you met a ninja?
+            </p>
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A" checked />
+              <label class="form-check-label"
+                >You'll recognize the outfit</label
+              >
+            </section>
+
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="B" />
+              <label class="form-check-label"
+                >The grim reaper will tell you</label
+              >
+            </section>
+          </section>
+
+          <section class="my-5">
+            <p class="lead font-weight-normal">
+              4. What is a ninja's favourite array method?
+            </p>
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A" checked />
+              <label class="form-check-label">forEach</label>
+            </section>
+
+            <section class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="B" />
+              <label class="form-check-label">Slice()</label>
+            </section>
+          </section>
+
+          <section class="text-center">
+            <input type="submit" class="btn btn-light" />
+          </section>
+        </form>
+      </section>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
